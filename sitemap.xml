@@ -38,15 +38,6 @@
   </url>
   
   <url>
-    <loc>https://www.gbyttt.cn/categories/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.gbyttt.cn/tags/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
@@ -74,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://www.gbyttt.cn/box/nav/index.html</loc>
+    <loc>https://www.gbyttt.cn/categories/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -92,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://www.gbyttt.cn/life/movies/index.html</loc>
+    <loc>https://www.gbyttt.cn/box/nav/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -110,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://www.gbyttt.cn/site/census/index.html</loc>
+    <loc>https://www.gbyttt.cn/life/movies/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -120,6 +111,15 @@
   
   <url>
     <loc>https://www.gbyttt.cn/personal/love/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gbyttt.cn/site/census/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -173,14 +173,14 @@
 
   
   <url>
-    <loc>https://www.gbyttt.cn/tags/Markdown/</loc>
+    <loc>https://www.gbyttt.cn/tags/Code-C/</loc>
     <lastmod>2023-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.gbyttt.cn/tags/Code-C/</loc>
+    <loc>https://www.gbyttt.cn/tags/Markdown/</loc>
     <lastmod>2023-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
