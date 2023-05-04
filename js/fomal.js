@@ -73,7 +73,7 @@ $.ajax({
   type: 'get',
   url: 'https://apis.map.qq.com/ws/location/v1/ip',
   data: {
-    key: '',  // 这里要写你的KEY!!!
+    key: 'A73BZ-YW3KW-XQWRF-3S64B-E7MYS-UZF25',  // 这里要写你的KEY!!!
     output: 'jsonp',
   },
   dataType: 'jsonp',
@@ -208,7 +208,60 @@ function showWelcome() {
           posdesc = "落霞与孤鹜齐飞，秋水共长天一色。";
           break;
         case "山东省":
-          posdesc = "遥望齐州九点烟，一泓海水杯中泻。";
+          switch (ipLoacation.result.ad_info.city) {
+            case "济南市":
+              posdesc = "四面荷花三面柳，一城山色半城湖。";
+              break;
+            case "青岛市":
+              posdesc = "红瓦绿树，碧海蓝天。";
+              break;
+            case "烟台市":
+              posdesc = "仙境海岸，鲜美烟台。";
+              break;
+            case "威海市":
+              posdesc = "走遍四海，还是威海。";
+              break;
+            case "东营市":
+              posdesc = "黄河入海，龙腾东营。";
+              break;
+            case "淄博市":
+              posdesc = "齐风陶韵，生态淄博。";
+              break;
+            case "潍坊市":
+              posdesc = "风筝故乡，幸福潍坊。";
+              break;
+            case "日照市":
+              posdesc = "阳光海岸，水运之都。";
+              break;
+            case "菏泽市":
+              posdesc = "牡丹之都，好汉之乡。";
+              break;
+            case "枣庄市":
+              posdesc = "江北水城，运河古城。";
+              break;
+            case "德州市":
+              posdesc = "鲁北田园，厚德载物。";
+              break;
+            case "滨州市":
+              posdesc = "孙子故里，生态滨州。";
+              break;
+            case "临沂市":
+              posdesc = "山水沂蒙，大美临沂。";
+              break;
+            case "济宁市":
+              posdesc = "孔孟之乡，运河之都，文化济宁。";
+              break;
+            case "聊城市":
+              posdesc = "江北水城，运河古都。";
+              break;
+            case "泰安市":
+              posdesc = "中华泰山，天下泰安。";
+              break;
+            default:
+              posdesc = "麻烦给我带两米大葱，谢谢";
+              break;
+          }
+          // posdesc = "遥望齐州九点烟，一泓海水杯中泻。";
           break;
         case "湖北省":
           posdesc = "来碗热干面！";
@@ -1113,27 +1166,30 @@ function changeMouseMode() {
 var now1 = new Date();
 
 function createtime1() {
-  var grt = new Date("08/09/2022 00:00:00"); //此处修改你的建站时间或者网站上线时间
+  var grt = new Date("01/23/2022 00:00:00"); //此处修改你的建站时间或者网站上线时间
   now1.setTime(now1.getTime() + 250);
   var days = (now1 - grt) / 1000 / 60 / 60 / 24;
   var dnum = Math.floor(days);
 
   var ascll = [
-    `欢迎来到Fomalhaut🥝の小家!`,
-    `Future is now 🍭🍭🍭`,
+    `欢迎来到Gby🎉のHome!`,
+    `Enjoy the hectic and adapt to loneliness 💯`,
     `
-        
-███████  ██████  ███    ███  █████  ██      ██   ██  █████  ██    ██ ████████ 
-██      ██    ██ ████  ████ ██   ██ ██      ██   ██ ██   ██ ██    ██    ██    
-█████   ██    ██ ██ ████ ██ ███████ ██      ███████ ███████ ██    ██    ██    
-██      ██    ██ ██  ██  ██ ██   ██ ██      ██   ██ ██   ██ ██    ██    ██    
-██       ██████  ██      ██ ██   ██ ███████ ██   ██ ██   ██  ██████     ██   
-                                              
+ ████████  ████████  ██      ██
+██         ██     ██ ██      ██
+██     ███ ████████    ██████
+██      ██ ██     ██     ██
+ ████████  ████████      ██
+
+░█▀▀█ ░█▀▀█ ░█──░█ 
+░█─▄▄ ░█▀▀▄ ░█▄▄▄█ 
+░█▄▄█ ░█▄▄█ ──░█── 
+                                          
 `,
     "小站已经苟活",
     dnum,
     "天啦!",
-    "©2022 By Fomalhaut",
+    "©2023 By Gby",
   ];
 
   setTimeout(
@@ -1172,7 +1228,7 @@ function createtime2() {
   setTimeout(
     console.warn.bind(
       console,
-      "%c ⚡ Powered by Fomalhaut🥝 %c 你正在访问Fomalhaut🥝の小家",
+      "%c ⚡ Powered by Fomalhaut🥝 %c 你正在访问Gby🎉のHome",
       "color:white; background-color:#f0ad4e",
       ""
     )
@@ -1282,8 +1338,8 @@ function share_() {
   try {
     // 截取标题
     var title = document.title;
-    var subTitle = title.endsWith("| Fomalhaut🥝") ? title.substring(0, title.length - 14) : title;
-    navigator.clipboard.writeText('Fomalhaut🥝的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
+    var subTitle = title.endsWith("| Gby🎉") ? title.substring(0, title.length - 14) : title;
+    navigator.clipboard.writeText('Gby🎉的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
     new Vue({
       data: function () {
         this.$notify({
@@ -2519,15 +2575,16 @@ if (m == 12 && dd == 25) {//圣诞节
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
-if (m == 8 && dd == 11) {//站长生日
+if (m == 10 && dd == 30) {//站长生日
   if (sessionStorage.getItem("isPopupWindow") != "1") {
-    Swal.fire("祝站长" + (y - 1998).toString() + "岁生日快乐！🥝");
+    Swal.fire("祝站长" + (y - 2001).toString() + "岁生日快乐！🥝");
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
-if (m == 6 && dd == 30) {//小猫咪生日
+
+if (m == 1 && dd == 24) {//周年纪念
   if (sessionStorage.getItem("isPopupWindow") != "1") {
-    Swal.fire("祝小猫咪" + (y - 1999).toString() + "岁生日快乐！🐱");
+    Swal.fire((y - 2020).toString() + "周年快乐");
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
@@ -2789,7 +2846,7 @@ function createtime() {
   var dis = Math.trunc(23400000000 + ((now - start) / 1000) * 17); // 距离=秒数*速度 记住转换毫秒
   var unit = (dis / 149600000).toFixed(6);  // 天文单位
   // 网站诞生时间
-  var grt = new Date("08/09/2022 00:00:00");
+  var grt = new Date("01/23/2022 00:00:00");
   var days = (now - grt) / 1e3 / 60 / 60 / 24,
     dnum = Math.floor(days),
     hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum,
@@ -3174,10 +3231,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/dm14.webp);
-    --darkmode-bg:url(https://lskypro.acozycotage.net/Fomalhaut/img/yuanshen1.webp);
-    --mobileday-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/snow.webp);
-    --mobilenight-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/mb8.webp);
+    --default-bg: url(https://api.dujin.org/bing/1920.php);
+    --darkmode-bg:url(https://love.gbyttt.cn/img/background.jpg);
+    --mobileday-bg: url(https://api.r10086.com/樱道随机图片api接口.php?图片系列=刀剑神域竖屏系列1);
+    --mobilenight-bg: url(https://api.r10086.com/樱道随机图片api接口.php?图片系列=刀剑神域竖屏系列1);
   }`;
 }
 // 切换背景主函数

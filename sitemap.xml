@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://gbyttt.cn/posts/4a17b156.html</loc>
+    <loc>https://www.gbyttt.cn/personal/bb/index.html</loc>
     
     <lastmod>2023-05-04</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://gbyttt.cn/posts/e7528b00.html</loc>
+    <loc>https://www.gbyttt.cn/personal/about/index.html</loc>
     
     <lastmod>2023-05-04</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://gbyttt.cn/posts/915ab73.html</loc>
+    <loc>https://www.gbyttt.cn/posts/4a17b156.html</loc>
     
     <lastmod>2023-05-04</lastmod>
     
@@ -29,7 +29,25 @@
   </url>
   
   <url>
-    <loc>https://gbyttt.cn/categories/index.html</loc>
+    <loc>https://www.gbyttt.cn/posts/e7528b00.html</loc>
+    
+    <lastmod>2023-05-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gbyttt.cn/posts/915ab73.html</loc>
+    
+    <lastmod>2023-05-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gbyttt.cn/categories/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -38,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://gbyttt.cn/tags/index.html</loc>
+    <loc>https://www.gbyttt.cn/tags/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -47,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://gbyttt.cn/box/gallery/index.html</loc>
+    <loc>https://www.gbyttt.cn/box/gallery/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -56,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://gbyttt.cn/box/animation/index.html</loc>
+    <loc>https://www.gbyttt.cn/box/animation/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -65,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://gbyttt.cn/box/nav/index.html</loc>
+    <loc>https://www.gbyttt.cn/box/nav/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -74,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://gbyttt.cn/personal/about/index.html</loc>
+    <loc>https://www.gbyttt.cn/personal/love/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -83,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://gbyttt.cn/personal/love/index.html</loc>
+    <loc>https://www.gbyttt.cn/life/games/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -92,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://gbyttt.cn/personal/bb/index.html</loc>
+    <loc>https://www.gbyttt.cn/site/census/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -101,7 +119,7 @@
   </url>
   
   <url>
-    <loc>https://gbyttt.cn/life/games/index.html</loc>
+    <loc>https://www.gbyttt.cn/life/movies/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -110,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://gbyttt.cn/site/census/index.html</loc>
+    <loc>https://www.gbyttt.cn/site/time/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -119,7 +137,7 @@
   </url>
   
   <url>
-    <loc>https://gbyttt.cn/life/movies/index.html</loc>
+    <loc>https://www.gbyttt.cn/life/music/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -128,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://gbyttt.cn/site/time/index.html</loc>
+    <loc>https://www.gbyttt.cn/social/fcircle/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -137,7 +155,7 @@
   </url>
   
   <url>
-    <loc>https://gbyttt.cn/life/music/index.html</loc>
+    <loc>https://www.gbyttt.cn/social/link/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -146,25 +164,7 @@
   </url>
   
   <url>
-    <loc>https://gbyttt.cn/social/fcircle/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gbyttt.cn/social/link/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gbyttt.cn/posts/2013454d.html</loc>
+    <loc>https://www.gbyttt.cn/posts/2013454d.html</loc>
     
     <lastmod>2022-10-23</lastmod>
     
@@ -173,7 +173,7 @@
   </url>
   
   <url>
-    <loc>https://gbyttt.cn/site/echarts/index.html</loc>
+    <loc>https://www.gbyttt.cn/site/echarts/index.html</loc>
     
     <lastmod>2022-09-10</lastmod>
     
@@ -183,7 +183,7 @@
   
 
   <url>
-    <loc>https://gbyttt.cn/</loc>
+    <loc>https://www.gbyttt.cn/</loc>
     <lastmod>2023-05-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -191,28 +191,28 @@
 
   
   <url>
-    <loc>https://gbyttt.cn/tags/Study/</loc>
+    <loc>https://www.gbyttt.cn/tags/Study/</loc>
     <lastmod>2023-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://gbyttt.cn/tags/Markdown/</loc>
+    <loc>https://www.gbyttt.cn/tags/Markdown/</loc>
     <lastmod>2023-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://gbyttt.cn/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/</loc>
+    <loc>https://www.gbyttt.cn/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/</loc>
     <lastmod>2023-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://gbyttt.cn/tags/Code/</loc>
+    <loc>https://www.gbyttt.cn/tags/Code/</loc>
     <lastmod>2023-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -221,7 +221,7 @@
 
   
   <url>
-    <loc>https://gbyttt.cn/categories/%E6%BC%94%E7%A4%BA/</loc>
+    <loc>https://www.gbyttt.cn/categories/%E6%BC%94%E7%A4%BA/</loc>
     <lastmod>2023-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
