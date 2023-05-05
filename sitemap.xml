@@ -101,15 +101,6 @@
   </url>
   
   <url>
-    <loc>https://www.gbyttt.cn/personal/love/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.gbyttt.cn/life/movies/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
@@ -128,6 +119,15 @@
   </url>
   
   <url>
+    <loc>https://www.gbyttt.cn/site/census/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.gbyttt.cn/social/fcircle/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
@@ -137,7 +137,7 @@
   </url>
   
   <url>
-    <loc>https://www.gbyttt.cn/social/link/index.html</loc>
+    <loc>https://www.gbyttt.cn/personal/love/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -146,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://www.gbyttt.cn/site/census/index.html</loc>
+    <loc>https://www.gbyttt.cn/social/link/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
