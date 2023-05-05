@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Twikoo-Lighthouse</title>
+      <link href="/posts/3cfe43bb.html"/>
+      <url>/posts/3cfe43bb.html</url>
+      
+        <content type="html"><![CDATA[<h1>Twikoo</h1><h2 id="前情提要">前情提要</h2><details class="folding-tag" ><summary> 点击查看 </summary>              <div class='content'>              <p><a href="https://butterfly.js.org/posts/ceeb73f/#%E8%A9%95%E8%AB%96">参考原贴</a></p><div class="tabs" id="分栏"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#分栏-1">评论设置</button></li><li class="tab"><button type="button" data-href="#分栏-2">Twikoo设置</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="分栏-1"><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">comments:</span><br><span class="line">  # Up to two comments system, the first will be shown as default</span><br><span class="line">  # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42</span><br><span class="line">  use:</span><br><span class="line"><span class="bullet">    -</span> Twikoo # Valine,Disqus,...</span><br><span class="line">  text: true # Display the comment name next to the button</span><br><span class="line">  # lazyload: The comment system will be load when comment element enters the browser&#x27;s viewport.</span><br><span class="line">  # If you set it to true, the comment count will be invalid</span><br><span class="line">  lazyload: true</span><br><span class="line">  count: false # Display comment count in post&#x27;s top<span class="emphasis">_img</span></span><br><span class="line"><span class="emphasis">  card_</span>post<span class="emphasis">_count: false # Display comment count in Home Page</span></span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="分栏-2"><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">twikoo:</span><br><span class="line">  envId: ~~https://twikoo.gbyttt.cn~~  # 这里配置上自己的envId</span><br><span class="line">  region: # 地区（私人部署不用）</span><br><span class="line">  visitor: true</span><br><span class="line">  option: # 选项（可选）</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>              </div>            </details><h2 id="Twikoo搭建">Twikoo搭建</h2><details class="folding-tag" ><summary> 点击查看 </summary>              <div class='content'>              <p><a href="https://twikoo.js.org/quick-start.html">Twikoo文档</a></p><ul><li>推荐使用Docker</li></ul><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">docker run --name twikoo -e TWIKOO_THROTTLE=1000 -p 8080:8080 -v $&#123;PWD&#125;/data:/app/data -d imaegoo/twikoo</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash"><span class="variable">$&#123;PWD&#125;</span>为当前文件夹，可以改为固定文件夹</span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">-p 8080:8080 端口（主机-&gt;容器tcp） 例如：-p 23103:8080 twikoo地址为 IP:23103(别忘记开放端口)</span></span><br></pre></td></tr></table></figure><ul><li>强烈建议使用域名反向代理所在端口，并使用SSL</li></ul><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># nginx设置</span></span><br><span class="line"><span class="section">location</span> / &#123;</span><br><span class="line">  <span class="attribute">proxy_pass</span> http:<span class="number">127.0.0.1:23103</span>;  <span class="comment"># 端口改为自己端口</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><code>本站搭建使用腾讯云轻量服务器搭建，若没有可以参考以下视频</code></p><ul><li><a href="https://www.bilibili.com/video/BV1Re4y1H7g8/">安知鱼：23.butterfly配置twikoo评论系统</a></li></ul>              </div>            </details>]]></content>
+      
+      
+      <categories>
+          
+          <category> Tutorial </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Configuration_Tutorial </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Daily_Question_05_05</title>
       <link href="/posts/8b407362.html"/>
       <url>/posts/8b407362.html</url>
@@ -20,9 +45,9 @@
       
         <tags>
             
-            <tag> C++ </tag>
-            
             <tag> Code </tag>
+            
+            <tag> C++ </tag>
             
             <tag> 840 </tag>
             
@@ -43,9 +68,9 @@
       
         <tags>
             
-            <tag> C++ </tag>
-            
             <tag> Code </tag>
+            
+            <tag> C++ </tag>
             
         </tags>
       
