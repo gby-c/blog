@@ -6,7 +6,7 @@
   <link href="https://www.gbyttt.cn/atom.xml" rel="self"/>
   
   <link href="https://www.gbyttt.cn/"/>
-  <updated>2023-05-06T11:05:43.926Z</updated>
+  <updated>2023-05-06T15:22:11.340Z</updated>
   <id>https://www.gbyttt.cn/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>DataStructures_WD_408_Qeustion</title>
+    <link href="https://www.gbyttt.cn/posts/d49552f9.html"/>
+    <id>https://www.gbyttt.cn/posts/d49552f9.html</id>
+    <published>2023-05-06T14:17:48.000Z</published>
+    <updated>2023-05-06T15:22:11.340Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="第二章">第二章</h2><details class="folding-tag" ><summary> 点我查看 </summary>              <div class='content'>              <details class="folding-tag" ><summary> 综合应用第一题 </summary>              <div class='content'>              <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">bool</span> <span class="title">deleteMinVal</span><span class="params">(<span class="type">int</span> array[], <span class="type">int</span> &amp;arraySize, <span class="type">int</span>&amp; val)</span></span>&#123;</span><br><span class="line"><span class="keyword">if</span>(arraySize==<span class="number">0</span>)<span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line"><span class="type">int</span> p=<span class="number">0</span>;</span><br><span class="line">val=array[<span class="number">0</span>];</span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;arraySize;i++)&#123;</span><br><span class="line"><span class="keyword">if</span>(array[i]&lt;val)&#123;</span><br><span class="line">p=i;</span><br><span class="line">val=array[i];</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line">array[p]=array[arraySize<span class="number">-1</span>];</span><br><span class="line">arraySize--;</span><br><span class="line"><span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line"><span class="type">int</span> a[<span class="number">5</span>]=&#123;<span class="number">2</span>,<span class="number">1</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">3</span>&#125;;</span><br><span class="line"><span class="type">int</span> val, size=<span class="number">5</span>;</span><br><span class="line"><span class="keyword">while</span>(<span class="built_in">deleteMinVal</span>(a, size, val))&#123;</span><br><span class="line">cout&lt;&lt;<span class="string">&quot;删除的最小元素为: &quot;</span>&lt;&lt;val&lt;&lt;endl;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><img src="https://buf.gbyttt.cn/img/202305062320519.png" alt=""></p>              </div>            </details>              </div>            </details>]]></content>
+    
+    
+    <summary type="html">王道数据结构习题代码（手写）,持续更新中😇😇😇</summary>
+    
+    
+    
+    <category term="DataStructures" scheme="https://www.gbyttt.cn/categories/DataStructures/"/>
+    
+    
+    <category term="DataStructures" scheme="https://www.gbyttt.cn/tags/DataStructures/"/>
+    
+    <category term="408" scheme="https://www.gbyttt.cn/tags/408/"/>
+    
+    <category term="王道" scheme="https://www.gbyttt.cn/tags/%E7%8E%8B%E9%81%93/"/>
+    
+  </entry>
   
   <entry>
     <title>Daily_Question_05_06</title>
