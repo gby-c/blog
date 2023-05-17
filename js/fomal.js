@@ -3205,7 +3205,7 @@ function changeBgColor() {
 }
 
 // 必应每日壁纸API
-let bingDayBg = screen.width <= 768 ? "url(https://bing.img.run/m.php)" : "url(https://bing.img.run/1920x1080.php)";
+let bingDayBg = screen.width <= 768 ? "url(https://bing.img.run/m.php)" : "url(https://api.oneneko.com/v1/bing_today)";
 // 必应历史壁纸API
 let bingHistoryBg = screen.width <= 768 ? "url(https://bing.img.run/rand_m.php)" : "url(https://bing.img.run/rand.php)";
 // EEE.DOG
@@ -3231,7 +3231,7 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://api.dujin.org/bing/1920.php);
+    --default-bg: url(https://api.oneneko.com/v1/bing_today);
     --darkmode-bg:url(https://love.gbyttt.cn/img/background.jpg);
     --mobileday-bg: url(https://api.r10086.com/樱道随机图片api接口.php?图片系列=刀剑神域竖屏系列1);
     --mobilenight-bg: url(https://api.r10086.com/樱道随机图片api接口.php?图片系列=刀剑神域竖屏系列1);
