@@ -83,15 +83,6 @@
   </url>
   
   <url>
-    <loc>https://www.gbyttt.cn/site/census/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.gbyttt.cn/box/animation/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
@@ -128,6 +119,15 @@
   </url>
   
   <url>
+    <loc>https://www.gbyttt.cn/life/movies/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.gbyttt.cn/life/music/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
@@ -146,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://www.gbyttt.cn/social/fcircle/index.html</loc>
+    <loc>https://www.gbyttt.cn/site/census/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -155,7 +155,7 @@
   </url>
   
   <url>
-    <loc>https://www.gbyttt.cn/life/movies/index.html</loc>
+    <loc>https://www.gbyttt.cn/social/fcircle/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -198,6 +198,13 @@
   </url>
   
   <url>
+    <loc>https://www.gbyttt.cn/tags/Markdown/</loc>
+    <lastmod>2023-05-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.gbyttt.cn/tags/DataStructures/</loc>
     <lastmod>2023-05-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -232,13 +239,6 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>https://www.gbyttt.cn/tags/Markdown/</loc>
-    <lastmod>2023-05-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
   
   <url>
@@ -249,14 +249,14 @@
   </url>
   
   <url>
-    <loc>https://www.gbyttt.cn/categories/DataStructures/</loc>
+    <loc>https://www.gbyttt.cn/categories/%E6%BC%94%E7%A4%BA/</loc>
     <lastmod>2023-05-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.gbyttt.cn/categories/%E6%BC%94%E7%A4%BA/</loc>
+    <loc>https://www.gbyttt.cn/categories/DataStructures/</loc>
     <lastmod>2023-05-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
