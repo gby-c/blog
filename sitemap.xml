@@ -74,15 +74,6 @@
   </url>
   
   <url>
-    <loc>https://www.gbyttt.cn/box/animation/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.gbyttt.cn/tags/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
@@ -92,7 +83,16 @@
   </url>
   
   <url>
-    <loc>https://www.gbyttt.cn/box/nav/index.html</loc>
+    <loc>https://www.gbyttt.cn/site/census/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gbyttt.cn/box/animation/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -102,6 +102,15 @@
   
   <url>
     <loc>https://www.gbyttt.cn/box/gallery/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gbyttt.cn/box/nav/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -128,7 +137,7 @@
   </url>
   
   <url>
-    <loc>https://www.gbyttt.cn/life/movies/index.html</loc>
+    <loc>https://www.gbyttt.cn/personal/love/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -146,16 +155,7 @@
   </url>
   
   <url>
-    <loc>https://www.gbyttt.cn/personal/love/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gbyttt.cn/site/census/index.html</loc>
+    <loc>https://www.gbyttt.cn/life/movies/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -191,7 +191,7 @@
 
   
   <url>
-    <loc>https://www.gbyttt.cn/tags/Markdown/</loc>
+    <loc>https://www.gbyttt.cn/tags/Configuration-Tutorial/</loc>
     <lastmod>2023-05-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -226,14 +226,14 @@
   </url>
   
   <url>
-    <loc>https://www.gbyttt.cn/tags/Configuration-Tutorial/</loc>
+    <loc>https://www.gbyttt.cn/tags/List/</loc>
     <lastmod>2023-05-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.gbyttt.cn/tags/List/</loc>
+    <loc>https://www.gbyttt.cn/tags/Markdown/</loc>
     <lastmod>2023-05-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -242,7 +242,7 @@
 
   
   <url>
-    <loc>https://www.gbyttt.cn/categories/%E6%BC%94%E7%A4%BA/</loc>
+    <loc>https://www.gbyttt.cn/categories/Tutorial/</loc>
     <lastmod>2023-05-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -256,7 +256,7 @@
   </url>
   
   <url>
-    <loc>https://www.gbyttt.cn/categories/Tutorial/</loc>
+    <loc>https://www.gbyttt.cn/categories/%E6%BC%94%E7%A4%BA/</loc>
     <lastmod>2023-05-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
