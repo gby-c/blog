@@ -3231,7 +3231,7 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://api.oneneko.com/v1/bing_today);
+    --default-bg: url(https://api.gbyttt.cn/today);
     --darkmode-bg:url(https://love.gbyttt.cn/img/background.jpg);
     --mobileday-bg: url(https://api.r10086.com/樱道随机图片api接口.php?图片系列=刀剑神域竖屏系列1);
     --mobilenight-bg: url(https://api.r10086.com/樱道随机图片api接口.php?图片系列=刀剑神域竖屏系列1);
