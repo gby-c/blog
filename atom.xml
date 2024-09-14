@@ -6,7 +6,7 @@
   <link href="https://www.gbyttt.cn/atom.xml" rel="self"/>
   
   <link href="https://www.gbyttt.cn/"/>
-  <updated>2024-09-13T16:22:16.026Z</updated>
+  <updated>2024-09-14T15:37:13.563Z</updated>
   <id>https://www.gbyttt.cn/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Leetcode_Detail_Question_02</title>
+    <link href="https://www.gbyttt.cn/posts/a558b0fa.html"/>
+    <id>https://www.gbyttt.cn/posts/a558b0fa.html</id>
+    <published>2024-09-13T16:00:00.000Z</published>
+    <updated>2024-09-14T15:37:13.563Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="每日一题">每日一题</h2><h3 id="题目">题目</h3><p><a href="https://leetcode.cn/problems/removing-stars-from-a-string/description/">从字符串中移除星号</a><br>给你一个包含若干星号 <code>*</code> 的字符串 <code>s</code> 。<br>在一步操作中，你可以：</p><ul><li>选中 <code>s</code> 中的一个星号。</li><li>移除星号 <strong>左侧</strong> 最近的那个 <strong>非星号</strong> 字符，并移除该星号自身。</li></ul><p>返回移除 <strong>所有</strong> 星号之后的字符串。</p><p><strong>注意：</strong></p><ul><li>生成的输入保证总是可以执行题面中描述的操作。</li><li>可以证明结果字符串是唯一的。</li></ul><h4 id="示例-1：">示例 1：</h4><p><strong>输入</strong>：<code>s = &quot;leet**cod*e&quot;</code><br><strong>输出</strong>：<code>&quot;lecoe&quot;</code><br><strong>解释</strong>：从左到右执行移除操作：</p><ul><li>距离第 1 个星号最近的字符是 “lee <strong>t</strong> <code>**</code>cod<code>*</code>e” 中的 ‘t’ ，s 变为 “lee<code>*</code>cod<code>*</code>e” 。</li><li>距离第 2 个星号最近的字符是 “le <strong>e</strong> <code>*</code>cod<code>*</code>e” 中的 ‘e’ ，s 变为 “lecod<code>*</code>e” 。</li><li>距离第 3 个星号最近的字符是 “leco <strong>d</strong> <code>*</code>e” 中的 ‘d’ ，s 变为 “lecoe” 。</li></ul><p>不存在其他星号，返回 “lecoe” 。</p><h4 id="示例-2：">示例 2：</h4><p><strong>输入</strong>：<code>s = &quot;erase*****&quot;</code><br><strong>输出</strong>：<code>&quot;&quot;</code><br><strong>解释</strong>：整个字符串都会被移除，所以返回空字符串。</p><h4 id="通过代码">通过代码</h4><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function">string <span class="title">removeStars</span><span class="params">(string s)</span> </span>&#123;</span><br><span class="line">string res = <span class="string">&quot;&quot;</span>;</span><br><span class="line"><span class="type">int</span> n=s.<span class="built_in">size</span>();</span><br><span class="line"><span class="type">int</span> nx=<span class="number">0</span>;</span><br><span class="line">                <span class="comment">// 从后向前找，逆序保存</span></span><br><span class="line"><span class="keyword">while</span>(n&gt;<span class="number">0</span>)&#123;</span><br><span class="line">n--;</span><br><span class="line"><span class="keyword">if</span>(s[n]==<span class="string">&#x27;*&#x27;</span>)nx++; <span class="comment">// 遇见*，记录数量</span></span><br><span class="line"><span class="keyword">else</span>&#123;  <span class="comment">// 遇见非星号</span></span><br><span class="line"><span class="keyword">if</span>(nx)&#123;</span><br><span class="line">nx--;  <span class="comment">//若此时后方有未消的*，直接跳过该小写字母</span></span><br><span class="line">&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">res+=s[n];  <span class="comment">//后方无*，保留小写字母</span></span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line">string res1=<span class="string">&quot;&quot;</span>;</span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i=res.<span class="built_in">size</span>()<span class="number">-1</span>;i&gt;=<span class="number">0</span>;i--)&#123;  <span class="comment">// 再回正</span></span><br><span class="line">res1+=res[i];</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> res1;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure><h3 id="代码解释">代码解释</h3><p>今日题目为模拟题，较为简单</p>]]></content>
+    
+    
+    <summary type="html">Leetcode每日一题，为了机试！</summary>
+    
+    
+    
+    <category term="Leetcode" scheme="https://www.gbyttt.cn/categories/Leetcode/"/>
+    
+    
+    <category term="ComputerTest" scheme="https://www.gbyttt.cn/tags/ComputerTest/"/>
+    
+    <category term="Leetcode" scheme="https://www.gbyttt.cn/tags/Leetcode/"/>
+    
+    <category term="Code" scheme="https://www.gbyttt.cn/tags/Code/"/>
+    
+  </entry>
   
   <entry>
     <title>Leetcode_Detail_Question_01</title>
