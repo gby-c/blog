@@ -6582,31 +6582,31 @@ blockquote.pullquote.right {
 /* 字体引入 */
 @font-face {
   font-family: YSHST;
-  src: url(https://data-static.netdun.net/Fomalhaut/fonts/优设好身体.woff2);
+  src: url(https://buf.gbyttt.cn/fonts/YSHaoShenTi.woff2);
   font-display: swap;
 }
 
 @font-face {
   font-family: MiSans;
-  src: url(https://data-static.netdun.net/Fomalhaut/fonts/MiSans.woff2);
+  src: url(https://buf.gbyttt.cn/fonts/MiSans.woff2);
   font-display: swap;
 }
 
 @font-face {
   font-family: HYTMR;
-  src: url(https://data-static.netdun.net/Fomalhaut/fonts/HYTangMeiRen55W.woff2);
+  src: url(https://buf.gbyttt.cn/fonts/HYTangMeiRen-W.woff2);
   font-display: swap;
 }
 
 @font-face {
   font-family: LXGW;
-  src: url(https://data-static.netdun.net/Fomalhaut/fonts/霞鹜文楷.woff2);
+  src: url(https://buf.gbyttt.cn/fonts/LXGWWenKai.woff2);
   font-display: swap;
 }
 
 @font-face {
   font-family: TTQHB;
-  src: url(https://data-static.netdun.net/Fomalhaut/fonts/甜甜圈海报字体.woff2);
+  src: url(https://buf.gbyttt.cn/fonts/HYBiRanTianTianQuanW.woff2);
   font-display: swap;
 }
 
