@@ -3232,7 +3232,7 @@ if (localStorage.getItem("blogbg") != undefined) {
 } else {
   document.getElementById("defineBg").innerText = `:root{
     --default-bg: url(https://api.gby.us.kg/today);
-    --darkmode-bg:url(https://love.gbyttt.cn/img/background.jpg);
+    --darkmode-bg:url(https://buf.gbyttt.cn/img/202501201405601.png);
     --mobileday-bg: url(https://api.r10086.com/樱道随机图片api接口.php?图片系列=刀剑神域竖屏系列1);
     --mobilenight-bg: url(https://api.r10086.com/樱道随机图片api接口.php?图片系列=刀剑神域竖屏系列1);
   }`;
